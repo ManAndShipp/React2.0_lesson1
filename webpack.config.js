@@ -28,9 +28,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 	mode: 'development',
 
-	entry: {
-		pageOne: './src/index.js'
-	},
 
 	output: {
 		filename: '[name].[chunkhash].js',
